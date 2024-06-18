@@ -12,13 +12,13 @@ export default function Contact() {
         <h1>or any project ideas?</h1>
         <h1>feel free discuss with me 👋</h1>
         <div className="social-links flex mt-10">
-          <a href="https://www.linkedin.com/in/mohdhoiruttamim/" className="social-link me-5">
+          <a href="https://www.linkedin.com/in/mohammad-hoiruttamim-24866a208/" className="social-link me-5" target="_blank">
             <img src={linkedinIcon} alt="linkedin" className="text-slate-100"/>
           </a>
-          <a href="github.com/mohdhoiruttamim" className="social-link me-5">
+          <a href="https://github.com/mohdhoiruttmim" className="social-link me-5" target="_blank">
             <img src={githubIcon} alt="github" />
           </a>
-          <a href="https://instagram.com/mohd_hoiruttmim" className="social-link me-5">
+          <a href="https://instagram.com/mohd_hoiruttmim" className="social-link me-5" target="_blank">
             <img src={instagramIcon} alt="instagram" />
           </a>
           <a href="mailto:mohammad.hoiruttamim@gmail.com" className="social-link">
@@ -26,7 +26,7 @@ export default function Contact() {
           </a>
         </div>
         <div className="footnote text-sm md:text-lg text-center text-slate-400 mt-10">
-          <p>Created using react.js, inspired by <a href="https://helmisatria.com/" className="underline decoration-cyan-500">Helmi Satria</a></p>
+          <p>Created using react.js, inspired by <a href="https://helmisatria.com/" className="underline decoration-cyan-500" target="_blank">Helmi Satria</a></p>
         </div>
       </div>
     </div>

@@ -51,7 +51,7 @@ return (
         </div>
         <div className="card-body md:w-2/3 md:mt-5 mt-5">
       <h1 className="year font-bold md:text-2xl text-xl">Aug 2022 - Aug 2023</h1>
-      <p className="md:text-xl mt-3">Worked as an assistant who helped provide technical guidance and learning for new
+      <p className="md:text-xl mt-3">Worked as an laboratory assistant who helped provide technical guidance and learning for new
         students in courses related to programming, such as Programming Algorithms, Data Structures, and Web Application
         Development.</p>
         </div>
