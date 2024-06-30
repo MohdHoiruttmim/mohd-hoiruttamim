@@ -1,10 +1,12 @@
 import Home from '../Home/Home.jsx';
 import Work from '../Work/Work.jsx';
 import Contact from '../Contact/Contact.jsx';
+import Navbar from '../Navbar/Navbar.jsx';
 
 export default function Layout() {
   return (
     <>
+    <Navbar />
     <div className="relative container-fluid bg-[#0B0B22] w-full h-screen overflow-x-hidden">
       <div className="md:w-[50vw] md:h-[50vw] w-60 h-60 bg-[#FCA016] rounded-full absolute top-20 z-10 md:left-[-200px]"></div>  
       <div className="md:w-[50vw] md:h-[50vw] w-60 h-60 bg-[#16FCD2] rounded-full absolute left-40 top-[-40px]"></div>
