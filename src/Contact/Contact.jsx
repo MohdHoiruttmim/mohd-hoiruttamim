@@ -5,7 +5,7 @@ import instagramIcon from '../assets/instagram.svg';
 
 export default function Contact() {
   return (
-    <div className="contact-warpper font-figtree mt-20">
+    <div id="contact" className="contact-warpper font-figtree mt-20">
       <h1 className="text-center text-4xl md:text-6xl text-slate-100 font-bold">Connect with me just only tap 🎯</h1>
       <div className="mt-6 footer text-slate-100 bg-cyan-400 text-2xl md:text-5xl font-bold rounded-t-xl p-10 mt-3 w-full bottom-[-5] bg-opacity-10 bg-[url('/src/assets/ournaments/ournament.png')] bg-cover md:bg-center">
         <h1>Have a question?</h1>

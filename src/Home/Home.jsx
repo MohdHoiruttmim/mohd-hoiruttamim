@@ -16,7 +16,7 @@ export default function Home() {
   // }, []);
 
   return (
-    <div className="text-slate-100 font-figtree mb-20">
+    <div id="home" className="text-slate-100 font-figtree mb-20">
       <TypeIt className="md:text-5xl font-bold text-3xl">
       mohd hoiruttamim
       </TypeIt>

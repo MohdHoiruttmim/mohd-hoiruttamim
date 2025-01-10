@@ -4,7 +4,7 @@ import utmIcon from '../assets/utm.svg';
 export default function Work() {
 return (
 <>
-  <div className="title-gradient relative w-fit mx-auto font-figtree">
+  <div id="workExperience" className="title-gradient relative w-fit mx-auto font-figtree">
     <h1 className="text-slate-100 text-4xl md:text-6xl font-bold ">Work Experience💻</h1>
     <div
       className="absolute w-full h-1/3 left-1 top-5 md:top-6 rotate-[-2deg] bg-gradient-to-r from-red-500 text-red-500 z-[-10]">

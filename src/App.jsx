@@ -1,8 +1,14 @@
-import Home from './Home/Home.jsx'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Layout from './Layout/Layout.jsx'
+import Blog from './Blog/Blog.jsx'
 
 export default function App() {
   return (
-    <Layout />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Layout />} />
+        <Route path="/blog" element={<Blog />} />
+      </Routes>
+    </Router>
   )
 }

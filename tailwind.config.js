@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     extend: {
+      scrollBehavior: ['smooth'],
       fontFamily: {
         figtree: ['"Figtree"', 'sans-serif'],
       }

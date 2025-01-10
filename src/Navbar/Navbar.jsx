@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import menuIcon from '../assets/menu.svg';
 
 export default function Navbar() {
   const [isShow, setShow] = useState(false);
+  const navigate = useNavigate();
 
   const toggleMenu = () => {
     setShow(!isShow);
@@ -36,22 +38,24 @@ export default function Navbar() {
       >
         <ul className="md:items-center md:gap-6 md:flex text-3xl md:text-sm">
           <li>
-            <a href="#" className="hover:text-cyan-400 block md:inline my-5">
+            <a href="#home" className="hover:text-cyan-400 block md:inline my-5">
               Home
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-cyan-400 block md:inline my-5">
+            <a href="#workExperience" className="hover:text-cyan-400 block md:inline my-5">
               Work Experiences
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-cyan-400 block md:inline my-5">
-              Blog
-            </a>
+            <button onClick={() => navigate('/blog')}>
+              <a href="javascript:void(0)" className="hover:text-cyan-400 block md:inline my-5">
+                Blog
+              </a>
+            </button>
           </li>
           <li>
-            <a href="#" className="hover:text-cyan-400 block md:inline my-5">
+            <a href="#contact" className="hover:text-cyan-400 block md:inline my-5">
               Contact Me
             </a>
           </li>
